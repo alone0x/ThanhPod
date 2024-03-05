@@ -1,0 +1,6 @@
+framework module ThanhPod {
+  umbrella header "ThanhPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

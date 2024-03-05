@@ -1,0 +1,22 @@
+{
+  "name": "ThanhPod",
+  "version": "0.1.0",
+  "summary": "A short description of ThanhPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bui trung thanh/ThanhPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bui trung thanh": "buitrungthanh260897@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bui trung thanh/ThanhPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ThanhPod/Classes/**/*"
+}

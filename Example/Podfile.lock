@@ -1,0 +1,16 @@
+PODS:
+  - ThanhPod (0.1.0)
+
+DEPENDENCIES:
+  - ThanhPod (from `../`)
+
+EXTERNAL SOURCES:
+  ThanhPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ThanhPod: 883ce83046a94d76471b72d729e39128f509ab79
+
+PODFILE CHECKSUM: 145143d85c812b50ee430ca6420dd39ccf11750b
+
+COCOAPODS: 1.13.0
