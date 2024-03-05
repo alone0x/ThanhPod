@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1153125B2B971B9E0019352D /* ViewControllerPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115312592B971B9E0019352D /* ViewControllerPod.swift */; };
-		1153125C2B971B9E0019352D /* ViewControllerPod.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1153125A2B971B9E0019352D /* ViewControllerPod.xib */; };
 		2B6472E4B5183D8483B5C55A3B8C350D /* Pods-ThanhPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AA7CFCF33E4B50F1E705F8CBB04069D /* Pods-ThanhPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DB44F0658DFC9287CE537E085CECD1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		309573CE3DE4C689BB03DEC1EF0F9866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -41,21 +39,19 @@
 /* Begin PBXFileReference section */
 		03D07052BEB6A9EF16A4BA5028D439A2 /* Pods-ThanhPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThanhPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0FEC8CCFC5FCF2341496BE56AB9386AA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ThanhPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		115312592B971B9E0019352D /* ViewControllerPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPod.swift; sourceTree = "<group>"; };
-		1153125A2B971B9E0019352D /* ViewControllerPod.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewControllerPod.xib; sourceTree = "<group>"; };
 		1ABD9AC5333CB3AE83C2484A00E3AE88 /* Pods-ThanhPod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ThanhPod_Example"; path = Pods_ThanhPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8D0C7B7625C60132294523DEA63D9D /* ThanhPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThanhPod-dummy.m"; sourceTree = "<group>"; };
 		265BB1AF3DB8066AAFD87F6B3D1F2855 /* Pods-ThanhPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThanhPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3FD6C0CEC9B91A77601A556AB5FE17BA /* Pods-ThanhPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThanhPod_Example.modulemap"; sourceTree = "<group>"; };
 		43C356FF889018CEB5650249EA216E00 /* Pods-ThanhPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThanhPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		44C7616E06A3ADB1589C0CB08B390FBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		44C7616E06A3ADB1589C0CB08B390FBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		4DFC9FDB0FACC9E1890C2325CE25C04D /* Pods-ThanhPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThanhPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		56A7E0CA0A54F633A4FEE88A0E244FD3 /* Pods-ThanhPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThanhPod_Example-Info.plist"; sourceTree = "<group>"; };
 		5AA7CFCF33E4B50F1E705F8CBB04069D /* Pods-ThanhPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThanhPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5B534192953AFD8801DB4A13E98ADD0C /* Pods-ThanhPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThanhPod_Example-dummy.m"; sourceTree = "<group>"; };
 		5DBD5AC01913629C71CEF8824B0BFC50 /* Pods-ThanhPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThanhPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		61877EA381084293747475719A8935FF /* ThanhPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThanhPod-prefix.pch"; sourceTree = "<group>"; };
-		698FE2418610BD13E396B0403119AD27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		698FE2418610BD13E396B0403119AD27 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6A06D99185DCE1DEB9FDBCE09502A3F3 /* ThanhPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThanhPod-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7489FCB0F7E53989A59B99DF989389D3 /* Pods-ThanhPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThanhPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -63,13 +59,13 @@
 		85FA36235F8506CAF31FCAC236904C79 /* Pods-ThanhPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThanhPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		91EE20FAB0E24B780FECD53EC86BE2F9 /* ThanhPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThanhPod.debug.xcconfig; sourceTree = "<group>"; };
 		94FDCFE6E733C43345A30E938E74C1F3 /* Pods-ThanhPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThanhPod_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A22EE8EB4FF7B85763C146DA0FFCE5A7 /* Pods-ThanhPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ThanhPod_Tests"; path = Pods_ThanhPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B945F0B5CDFC8C9B2B06CA79D28BDC4C /* ThanhPod */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThanhPod; path = ThanhPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2886CDB8380584FC0329E7BAE157499 /* ThanhPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ThanhPod.modulemap; sourceTree = "<group>"; };
 		C5550C710300D9DD48F5D841F4EDE051 /* Pods-ThanhPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThanhPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		DDC860E40D48ED097E3820F4F520247D /* ThanhPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ThanhPod-Info.plist"; sourceTree = "<group>"; };
-		E48D4266D0172B7DE3F4B7D70132AC2B /* ThanhPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ThanhPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E48D4266D0172B7DE3F4B7D70132AC2B /* ThanhPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ThanhPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E876EED612C242DAA6C4AABB5D8E8680 /* Pods-ThanhPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThanhPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E88C78EEC06782D4D73D8A716ED16994 /* Pods-ThanhPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThanhPod_Tests.modulemap"; sourceTree = "<group>"; };
 		F09F308FDA0D2462DF31858DB977BF35 /* ThanhPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThanhPod.release.xcconfig; sourceTree = "<group>"; };
@@ -108,8 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				0FEC8CCFC5FCF2341496BE56AB9386AA /* ReplaceMe.swift */,
-				115312592B971B9E0019352D /* ViewControllerPod.swift */,
-				1153125A2B971B9E0019352D /* ViewControllerPod.xib */,
 				509DF14CA0715B127415D09771FC8BC7 /* Pod */,
 				8302F47791CB1EAF5F767C7C6794CBBE /* Support Files */,
 			);
@@ -349,7 +343,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1153125C2B971B9E0019352D /* ViewControllerPod.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +375,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1153125B2B971B9E0019352D /* ViewControllerPod.swift in Sources */,
 				FCF14DE9415143A3A54612D511CA53ED /* ReplaceMe.swift in Sources */,
 				A1E81D868EF194DCDA60801AF52D15D8 /* ThanhPod-dummy.m in Sources */,
 			);
@@ -536,7 +528,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
